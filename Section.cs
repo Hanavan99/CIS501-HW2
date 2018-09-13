@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace _501_HW2
 {
-    class Semester
+    abstract class Section
     {
     }
 }
