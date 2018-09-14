@@ -6,7 +6,19 @@ using System.Threading.Tasks;
 
 namespace _501_HW2
 {
-    abstract class Section
+    public abstract class Section
     {
+        protected Course _course;
+        protected Semester _semester;
+        private IFaculty _faculty;
+
+        public string number;
+        public int cap;
+
+        public void SetNumber(string number);
+        public string GetNumber();
+
+        public void SetCap(int cap);
+        public int GetCap();
     }
 }
