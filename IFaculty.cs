@@ -6,7 +6,12 @@ using System.Threading.Tasks;
 
 namespace _501_HW2
 {
-    interface IFaculty
+    public interface IFaculty
     {
+
+        string GetName();
+
+        void AssignSection(Section assignedSection);
+
     }
 }

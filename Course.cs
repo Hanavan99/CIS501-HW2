@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace _501_HW2
 {
-    class Course
+    public class Course
     {
         public string title;
         public int number;

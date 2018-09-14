@@ -19,7 +19,7 @@ namespace _501_HW2
 
         public string ToString()
         {
-            return ""; // pull in how it is done in Oneline.cs
+            return String.Format("{0} section {1} ({2}) is being taught by {3} in {4}", _course.number, number, _course.title, _faculty.GetName(), _semester.GetName());
         }
     }
 }

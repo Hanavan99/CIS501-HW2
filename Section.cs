@@ -10,7 +10,7 @@ namespace _501_HW2
     {
         protected Course _course;
         protected Semester _semester;
-        private IFaculty _faculty;
+        protected IFaculty _faculty;
 
         public string number;
         public int cap;

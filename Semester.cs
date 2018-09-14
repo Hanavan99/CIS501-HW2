@@ -13,7 +13,7 @@ namespace _501_HW2
 
         public Semester(string name)
         {
-            this._name = string;
+            this._name = name;
             this._sections = new List<Section>();
         }
 
