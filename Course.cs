@@ -8,5 +8,8 @@ namespace _501_HW2
 {
     class Course
     {
+        public string title;
+        public int number;
+        private List<Section> _sections;
     }
 }

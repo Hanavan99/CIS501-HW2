@@ -15,10 +15,23 @@ namespace _501_HW2
         public string number;
         public int cap;
 
-        public void SetNumber(string number);
-        public string GetNumber();
+        public void SetNumber(string number)
+        {
+            this.number = number;
+        }
+        public string GetNumber()
+        {
+            return number;
+        }
 
-        public void SetCap(int cap);
-        public int GetCap();
+        public void SetCap(int cap)
+        {
+            this.cap = cap;
+        }
+
+        public int GetCap()
+        {
+            return cap;
+        }
     }
 }

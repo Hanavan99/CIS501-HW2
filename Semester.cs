@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace _501_HW2
 {
-    class Semester
+    public class Semester
     {
         private string _name;
         private List<Section> _sections;
@@ -15,6 +15,16 @@ namespace _501_HW2
         {
             this._name = string;
             this._sections = new List<Section>();
+        }
+
+        public string GetName()
+        {
+            return this._name;
+        }
+
+        public void IncludeSection(Section newSection)
+        {
+            _sections.Add(newSection);
         }
     }
 }
