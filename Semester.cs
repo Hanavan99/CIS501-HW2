@@ -6,6 +6,10 @@ using System.Threading.Tasks;
 
 namespace _501_HW2
 {
+
+    /// <summary>
+    /// A semester has a name, and a list of 0 or more sections.
+    /// </summary>
     public class Semester
     {
         private string _name;

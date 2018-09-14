@@ -6,6 +6,11 @@ using System.Threading.Tasks;
 
 namespace _501_HW2
 {
+
+    /// <summary>
+    /// Online extends section, and has a semester, a course, a teacher, a section number, and a capacity. It
+    /// also overrides ToString() to give the text representation.
+    /// </summary>
     public class Online : Section
     {
 

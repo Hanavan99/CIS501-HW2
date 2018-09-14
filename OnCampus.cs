@@ -6,6 +6,11 @@ using System.Threading.Tasks;
 
 namespace _501_HW2
 {
+
+    /// <summary>
+    /// OnCampus extends section, and has one semester, one course, one faculty, a section number, and a capacity. It 
+    /// also overrides ToString() for the text representation.
+    /// </summary>
     public class OnCampus : Section
     {
         public OnCampus(Semester semester, Course course, Faculty teacher, string number, int cap)
@@ -17,7 +22,7 @@ namespace _501_HW2
             this.cap = cap;
         }
 
-        public string ToString()
+        public override string ToString()
         {
             return String.Format("{0} section {1} ({2}) is being taught by {3} in {4}", _course.number, number, _course.title, _faculty.GetName(), _semester.GetName());
         }

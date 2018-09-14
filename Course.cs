@@ -6,6 +6,10 @@ using System.Threading.Tasks;
 
 namespace _501_HW2
 {
+
+    /// <summary>
+    /// A course has a title, number and a list containing 0 or more sections.
+    /// </summary>
     public class Course
     {
         public string title;

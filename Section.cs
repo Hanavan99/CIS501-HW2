@@ -6,8 +6,14 @@ using System.Threading.Tasks;
 
 namespace _501_HW2
 {
+
+    /// <summary>
+    /// Section is an abstract class that has a course, a semester, a faculty member implementing IFaculty,
+    /// a section number, and a capacity.
+    /// </summary>
     public abstract class Section
     {
+
         protected Course _course;
         protected Semester _semester;
         protected IFaculty _faculty;
